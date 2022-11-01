@@ -154,7 +154,7 @@ section {
   text-transform: uppercase;
   text-decoration: none;
   background-color: #5e16bd;
-  background-image: linear-gradient(90deg, #501aa8, #870de8);
+  background-image: #0DD391;
   /* padding: 1rem 2.5rem; */
   /* width: 10rem; */
 
@@ -292,9 +292,9 @@ section {
 }
 
 .btn-book-demo{
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
-  background: #262626;
+  background:gray;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 40px;
@@ -424,7 +424,7 @@ section {
   padding-left: 56px;
 }
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/counter1.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner.webp") center center;
   background-size: cover;
   padding: 100px 0;
 }

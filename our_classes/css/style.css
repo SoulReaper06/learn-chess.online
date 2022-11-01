@@ -17,112 +17,10 @@ h1 {
   font-weight: 700;
   margin-bottom: 2.5rem;
 }
-/* .class-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1.5rem;
-}
-.hoverbox {
-  position: relative;
-  background: rgba(48, 52, 59, 0.75);
-  padding: 32px;
-  overflow: hidden;
-  border-radius: 8px;
-  transition: 0.5s ease-in;
-}
-.hoverbox:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 0.25rem;
-  background: var(--clr-primary);
-  transition: var(--transition);
-}
-.hoverbox img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  transition: var(--transition);
-  filter: blur(0.7px);
-}
-.hoverbox h3 {
-  font-size: 1.6rem;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: underline;
-  margin-bottom: 1rem;
-}
-.hoverbox p {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 19px;
-  margin-bottom: 1rem;
-}
-.hoverbox a {
-  position: relative;
-  color: #fff;
-  text-decoration: unset;
-  text-transform: uppercase;
-  font-size: 1rem;
-  font-weight: 700;
-  transition: 0.5s ease-in;
-}
-.hoverbox a:after {
-  content: ">";
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 1rem;
-  border: 2px solid #fff 5;
-  border-radius: 50%;
-  width: 1.5rem;
-  height: 1.5rem;
-  transition: var(--transition);
-}
-.hoverbox a:before {
-  content: "";
-  position: absolute;
-  width: 0rem;
-  height: 0.125rem;
-  background: #fff;
-  right: 0.75rem;
-  top: calc(50% - 0.025rem);
-  transition: var(--transition);
-}
-.hoverbox:hover {
-  box-shadow: 0px 16px 24px rgba(0, 15, 0, 0.1);
-}
-.hoverbox:hover:after {
-  width: 100%;
-}
-.hoverbox:hover a:after {
-  border-color: transparent;
-  margin-left: 2rem;
-}
-.hoverbox:hover a:before {
-  width: 1.5rem;
-  background: var(--clr-primary);
-}
-.hoverbox:hover a {
-  color: var(--clr-primary);
-}
-.hoverbox:hover a:hover {
-  color: var(--clr-primary-hover);
-}
-.hoverbox:hover a:hover:before {
-  background: var(--clr-primary-hover);
-}
-.hoverbox:hover img {
-  transform: scale(1.2) rotate(-5deg);
-  filter: blur(8px);
-} */
 
+a {
+  text-decoration: none;
+}
 
 
 .navbar-nav a{
@@ -612,27 +510,7 @@ footer {
           margin-top: 13px;
           margin-left: 37px;
        }
-        .class-card .leftSide .class-btn {
-          margin-top: 60px;
-          margin-left: 38px;
-          display: flex;
-          height: 20px;
-          align-items: center;
-          transition: 0.3s;
-          cursor: pointer;
-       }
-        .class-card .leftSide .class-btn a {
-          font-family: Mulish;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 20px;
-          margin-right: 10px;
-          color: #ada5ff;
-       }
-        .class-card .leftSide .class-btn:hover {
-          margin-left: 43px;
-       }
+        
         .class-card .rightSide {
           display: flex;
           padding: 20px;
@@ -708,6 +586,7 @@ footer {
           box-shadow: 0px 15px 20px -10px rgba(71, 62, 166, 0.552989);
           border-radius: 28.5px;
           display: flex;
+          text-decoration: none;
           align-items: center;
           justify-content: center;
           font-family: Mulish;
@@ -723,7 +602,7 @@ footer {
        }
 
      .playful_pawn .class-btn {
-        margin-top: 60px;
+        margin-top: 40px;
       }
 
       .nimble_knight .class-btn {
